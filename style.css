@@ -89,7 +89,20 @@ body {
   margin-right: 0.62rem;
 }
 
-.humidity, .wind {
+.humidity,
+.wind {
   font-size: 1.75rem;
   margin-top: 0.37rem;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: left;
+  margin-left: 0.62rem;
+  font-size: 0.87rem;
+  margin-top: 0.62rem;
+  display: none;
 }
